@@ -1,54 +1,50 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-  background: #7159c1;
-  font-family: "Montserrat", Arial;
-
-  color: #ffffffaa;
-
-  font-size: 2rem;
+	background: #110066;
+	font-family: "Montserrat", Arial;
+	color: #fff;
+	font-size: 2rem;
 }
 
 nav#tree {
-  margin-top: 45px;
-
-  max-width: 300px;
+	margin-top: 45px;
+	max-width: 300px;
 }
 
 nav#tree ul {
-  padding-left: 16px;
+	padding-left: 16px;
 }
 
 nav#tree li {
-  list-style: none;
-
-  margin-top: 2px;
+	list-style: none;
+	margin-top: 2px;
 }
 
 nav#tree li.has-children {
-  cursor: pointer;
-  position: relative;
+	cursor: pointer;
+	position: relative;
 }
 
 nav#tree li.has-children:before {
-  content: '\f107';
-  color: #F3F3F4;
-  position: absolute;
-  font-family: FontAwesome;
-  font-size: 26px;
-  right: 15px;
+	content: '\f107';
+	color: #F3F3F4;
+	position: absolute;
+	font-family: FontAwesome;
+	font-size: 26px;
+	right: 15px;
 }
 
 li > ul {
-  display: none;
+	display: none;
 }
 
 li.open > ul {
-  display: block;
+	display: block;
 }
